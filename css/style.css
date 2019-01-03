@@ -1,0 +1,243 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker|Space+Mono|Montserrat');
+
+
+h2, h3, h4, h5{
+	font-family: 'Space Mono', san-serif;
+}
+
+p {
+	font-family: 'Montserrat', san-serif;
+}
+
+/* Styling for Navigation Bar */
+
+nav.navbar.navbar-light.bg-light {
+	padding: 0;
+	background: #FFFFFF !important;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+nav img {
+	max-width: 400px;
+}
+
+
+nav a.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 0;
+}
+
+/* Gives hamburger a little more spacing on right */
+.navbar-toggler:not(:disabled):not(.disabled) {
+	margin-right: 15px;
+}
+
+/*
+li.active a{
+	border-bottom: 1px solid black;
+}
+*/
+/* Pushes page content below sticky header */
+#nav-buffer {
+	margin-top:72px;
+}
+
+li.nav-item svg {
+	color: rgba(0,0,0,0);
+}
+
+li.nav-item.active svg {
+	color: rgba(0,0,0,1);
+}
+
+li.nav-item:hover svg {
+	color: rgba(0,0,0,1);
+}
+
+img {
+	max-width: 100%;
+}
+
+
+div.navbar-collapse {
+	margin-right: 20px;
+}
+
+/*Styling for slider*/
+#slider, .wrap, .slide-content {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 92vh;
+	overflow-x: hidden;		/*no scroll bars */
+	position: relative;
+}
+
+/*
+.wrap {
+	margin-top:73px;
+}*/
+
+.slide {
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.slide1 {
+	background-image: url('../imgs/bt-puppy-slider1-minv2.jpg');
+}
+
+.slide2 {
+	background-image: url('../imgs/bt-puppy-slider2-minv2.jpg');
+}
+
+.slide3 {
+	background-image: url('../imgs/bt-puppy-slider3-minv2.jpg');
+}
+
+.slide-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.slide-content span {
+	font-size: 5rem;
+	color: white;
+}
+
+/* version 2 arrow (current) */
+.arrow {
+	cursor: pointer !important;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 0;
+	height: 0;
+	color: rgba(255,255,255,.4);
+}
+
+#arrow-left {
+	left: 0;
+	margin-left: 30px;
+}
+
+#arrow-right {
+	right: 0;
+	margin-right: 75px;
+}
+	
+/* version 1 arrow, saving just incase */
+/*
+.arrow {
+	cursor: pointer !important;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+#arrow-left {
+	border-width: 30px 40px 30px 0;
+	border-color: transparent #FFF transparent transparent;
+	left: 0;
+	margin-left: 30px;
+}
+
+#arrow-right {
+	border-width: 30px 0 30px 40px;
+	border-color: transparent transparent transparent #fff;
+	right: 0;
+	margin-right: 30px;
+}
+*/
+
+
+/* Jumbotron css */
+
+.about-breed-jumbo {
+	background-image: url('../imgs/jumbotron-about-breed.png');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.adopt-jumbo {
+	background-image: url('../imgs/jumbotron-adopt.jpg');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.available-bostons-jumbo {
+	background-image: url('../imgs/jumbotron-available-bostons.jpg');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.more-info-jumbo {
+	background-image: url('../imgs/jumbotron-more-info.jpg');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.about-breed-jumbo h1, .adopt-jumbo h1, .available-bostons-jumbo h1, .more-info-jumbo h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', San-serif;
+
+}
+
+/* Style for Adoption form page */
+.adopt-text p {
+	text-align: center;
+}
+
+.download a{
+	display: flex;
+  justify-content: center;
+}
+
+/* Style for Available Boston's page */
+.scroll-div {
+	width: 100%;
+	height: 600px;
+	overflow: scroll;
+	text-align: center;
+}
+
+.scroll-div p {
+	line-height: 10px;
+}
+
+/* Styling for footer */
+.footer {
+	background-color: #000000;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.sticky-bottom {
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for videos */
+video {
+	max-width: 100%;
+}
